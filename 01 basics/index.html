@@ -9,9 +9,24 @@
 <body>
     <h1>This is my third heading</h1>
     <p id="mypara">this text will be replaced by todays date</p>
+    <p id="mypara2">second para</p>
 
+<!--inline javascript-->
     <button
         onclick="document.getElementById('mypara').innerHTML = Date()"
     >click me</button>
+    <button onclick="myFunction()">change 2nd para</button>
+    
+    <script>
+        
+        function myFunction(){
+        console.log('myfunction starts')
+
+        document.getElementById('mypara2').innerHTML = "from javascript"
+        console.log('myfunction ends')
+
+        }
+    
+    </script>
 </body>
 </html>

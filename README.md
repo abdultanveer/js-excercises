@@ -4,3 +4,5 @@ https://docs.google.com/presentation/d/1jmTPOAhqqcG91NQQlgIXI26WAaWMwwfJ/edit?us
 
 
 https://www.googleapis.com/books/v1/volumes?q=othello&maxResults=2&printType=books
+
+https://github.com/davidflanagan/javascript6_examples
